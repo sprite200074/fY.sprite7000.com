@@ -61,7 +61,7 @@ img {
     width: 150px;
     height: 150px;
     position: fixed;
-    left: 5000px;
+    left: 80%;
     bottom: 10px;
     transition: all 1000ms
 }
