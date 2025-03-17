@@ -61,7 +61,12 @@ img {
     width: 150px;
     height: 150px;
     position: fixed;
-    left: 80%;
+    left: 10px;
     bottom: 10px;
     transition: all 1000ms
+}
+
+img:hover {
+    width: 30px;
+    height: 30px;
 }
