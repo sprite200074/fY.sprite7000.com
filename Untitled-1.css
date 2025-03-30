@@ -1,6 +1,14 @@
-img {
+img.game {
     width: 120px;
     height: 120px;
+    border-radius: 30%;
+}
+
+img.logo {
+    width: 120px;
+    height: 120px;
+    animation: logo 3000ms infinite;
+    border-radius: 0%;
 }
 
 a.download {
@@ -59,6 +67,45 @@ div.i {
 
 #opisanie {
     color: rgb(255, 255, 255);
+}
+
+p.thetext {
+    color: rgb(255, 255, 255);
+}
+
+@keyframes logo {
+    0% {
+        transform: rotate(0deg);
+        border-radius: 0%;
+    }
+
+    50% {
+        transform: rotate(300);
+        border-radius: 50%;
+    }
+
+    100% {
+        transform: rotate(360deg);
+        border-radius: 0%;
+    }
+}
+
+body {
+    animation: fnaf 3000ms infinite;
+}
+
+@keyframes fnaf {
+    0% {
+        background-color: rgb(6, 52, 33);
+    }
+
+    50% {
+        background-color: rgb(12, 30, 23);
+    }
+
+    100% {
+        background-color: rgb(6, 52, 33);
+    }
 }
 
 p.thetext {
